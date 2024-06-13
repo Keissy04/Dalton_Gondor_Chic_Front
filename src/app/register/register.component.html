@@ -1,0 +1,117 @@
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+  }
+
+  form {
+      background-color: #fff;
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+      width: 100%;
+      background-color: #4caf50;
+      color: #fff;
+      padding: 15px 20px;
+      margin: 20px 0 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+      background-color: #45a049;
+  }
+
+  .tabs__checkbox {
+      margin-bottom: 20px;
+  }
+
+  .tabs__checkbox input[type="checkbox"] {
+      margin-right: 5px;
+  }
+
+  .htc__login__btn {
+      text-align: center;
+  }
+
+  .htc__social__connect {
+      text-align: center;
+  }
+
+  .htc__social__connect h2 {
+      margin-bottom: 10px;
+  }
+
+  .htc__soaial__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .htc__soaial__list li {
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  span{
+      padding: 10px;
+  }
+
+  .htc__soaial__list li a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #ccc;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      border-radius: 50%;
+  }
+
+  .forget a {
+        text-decoration: none;
+        color: #ff1744;
+    }
+
+</style>
+<form class="login" method="post">
+  <h2 style="color: #ff1744; text-align: center;">Register</h2>
+  <input type="text" placeholder="Name*">
+  <input type="text" placeholder="Email">
+  <input type="password" placeholder="Password*">
+  <div class="tabs__checkbox">
+
+      <span><input type="checkbox"> Remember me</span>
+  </div>
+
+  <input type="submit" style="background-color: #ff1744;" value="Valider">
+  <div class="htc__social__connect">
+    <br>
+      <h6>Or Login With</h6>
+      <ul class="htc__soaial__list">
+          <li><a class="bg--twitter" href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+          <li><a class="bg--instagram" href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+          <li><a class="bg--facebook" href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+          <li><a class="bg--googleplus" href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+      </ul>
+  </div>
+</form>
