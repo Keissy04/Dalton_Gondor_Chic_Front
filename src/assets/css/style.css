@@ -7,7 +7,7 @@
 
 
 -----------------------------------------------------------------------------------
-  
+
   CSS INDEX
   ===================
 
@@ -222,7 +222,7 @@
     width: 50%;
 }
 .product__action li a span:hover {
-    color: #fd3f0f;
+    color: #2b1e12;
 }
 .product:hover .product__hover__info {
     opacity: 1;
@@ -250,7 +250,7 @@
     transition: all 0.4s ease 0s;
 }
 .add__to__wishlist a span:hover {
-    color: #ff4136;
+    color: #2b1e12;
 }
 .product__details h2 {
     color: #444444;
@@ -265,7 +265,7 @@
     margin-top: 9px;
 }
 .product__price li {
-    color: #ff4136;
+    color: #6e6c34;
     font-size: 16px;
 }
 .product__price li.new__price {
@@ -296,10 +296,10 @@
     padding-right: 0;
 }
 .product__menu button:hover {
-    color: #ff4136;
+    color: #5d542b;
 }
 .product__menu button.is-checked {
-    color: #ff4136;
+    color: #5d542b;
 }
 /* single product */
 
@@ -442,7 +442,7 @@
     top: 20px;
 }
 .on-sale span {
-    background-color: #ff4136;
+    background-color: #2b1e12;
     border-radius: 50px;
     color: #fff;
     display: inline-block;
@@ -456,7 +456,7 @@
 .product-categories-title > h3 {
     border-left: 1px solid rgba(129, 129, 129, 0.2);
     border-right: 1px solid rgba(129, 129, 129, 0.2);
-    border-top: 2px solid #ff4136;
+    border-top: 2px solid #5d542b;
     color: #303030;
     font-size: 17px;
     font-weight: 500;
@@ -485,10 +485,10 @@
     transition: all 0.3s ease 0s;
 }
 .product-categories-menu ul li a:hover {
-    color: #ff4136;
+    color: #e3e3e3;
 }
 .product-tab-list {
-    border-color: #ff4136 rgba(129, 129, 129, 0.2) rgba(129, 129, 129, 0.2);
+    border-color: #2b1e12 rgba(129, 129, 129, 0.2) rgba(129, 129, 129, 0.2);
     border-style: solid;
     border-width: 2px 1px 1px;
     padding: 14px 20px 10px;
@@ -516,7 +516,7 @@
 }
 .product-tab-list ul li.active .tab-menu-text > h4,
 .product-tab-list ul li .tab-menu-text > h4:hover {
-    color: #ff4136;
+    color: #2b1e12;
 }
 .product-style-tab {
     position: relative;
@@ -534,7 +534,7 @@
     color: #303030;
 }
 .product-slider-active.owl-carousel .owl-nav div:hover {
-    color: #ff4136;
+    color: #2b1e12;
 }
 .product-slider-active.owl-carousel .owl-nav div.owl-next {
     left: auto;
@@ -580,7 +580,7 @@
     text-transform: uppercase;
 }
 .deal-area > a:hover {
-    background-color: #ff4136;
+    background-color: #2b1e12;
 }
 .banner-img > img {
     width: 100%;
@@ -602,7 +602,7 @@
     transition: all 0.3s ease 0s;
 }
 .all-product-btn a:hover {
-    color: #ff4136;
+    color: #2b1e12;
 }
 .product-slider-active2 .product {
     margin-top: 30px;
@@ -1881,13 +1881,13 @@ product__style--7
 .team__thumb a img {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: grayscale(100%);
 }
 .team:hover .team__thumb a img {
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: grayscale(00%);
 }
 .htc__team__page .team {
@@ -2112,9 +2112,9 @@ product__style--7
     margin-top: 20px;
 }
 .ui-widget-header {
-    background: #b7b7b7 none repeat scroll 0 0;
-    border: 1px solid #b7b7b7;
-    color: #b7b7b7;
+    background: #bba88d none repeat scroll 0 0;
+    border: 1px solid #bba88d;
+    color: #bba88d;
 }
 .ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
     background: #ddd none repeat scroll 0 0;
@@ -2123,7 +2123,7 @@ product__style--7
     height: 3px;
 }
 .ui-slider-range.ui-widget-header.ui-corner-all {
-    background: #b7b7b7 none repeat scroll 0 0;
+    background: #bba88d none repeat scroll 0 0;
 }
 .ui-slider-handle.ui-state-default.ui-corner-all {
     background: #fff none repeat scroll 0 0;
@@ -3981,7 +3981,7 @@ a.shipping-calculator-button:hover {
     transform: scale(1.5);
     opacity: 0;
     z-index: 99;
-    
+
 }
 .portfolio-icon a i {
     line-height: 50px;
